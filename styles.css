@@ -232,12 +232,12 @@ button {
         display: block;
     }
     .container {
-        padding: 0px;
+        padding: 10px;
     }
 
     section {
-        margin: 0px;
-        padding: 0px;
+        margin: 10px;
+        padding: 10px;
     }
 
     .project img {
