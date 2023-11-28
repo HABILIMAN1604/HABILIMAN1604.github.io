@@ -20,19 +20,7 @@ header h1 {
 header p {
     font-size: 1.2em;
 }
-.header-title {
-     position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 2;
-    margin: 0;
-    font-size: 1.5em;
-    color: #fff;
-    background-color: rgba(51, 51, 51, 0.9); /* Background color with transparency */
-    padding: 10px; /* Padding inside the navigation bar */
-    border-radius: 8px; /* Add rounded corners for a better design */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */ 
-}
+
 
 
 
