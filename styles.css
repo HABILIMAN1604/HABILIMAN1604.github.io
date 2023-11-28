@@ -220,7 +220,7 @@ header p {
 /*.container styles*/
 .container {
     text-align: left;
-    max-width: 1000px;
+    max-width: 100px;
     margin: auto;
     
     padding: 85px;
@@ -280,7 +280,7 @@ nav a {
 
 /*section styles*/
 section {
-    margin: 50px 50px;
+    margin: 0;
     background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency */  
 }
 section h2 {
