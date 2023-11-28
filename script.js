@@ -46,4 +46,13 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Add an event listener to the hamburger menu button
+    document.getElementById('mobile-menu').addEventListener('click', function () {
+        // Toggle the 'active' class on the navigation menu
+        document.querySelector('nav ul').classList.toggle('active');
+    });
+});
+
+
 
