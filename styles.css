@@ -12,9 +12,10 @@ body {
 /*header styles*/
 header {
     color: #fff;
+    margin: 50px;
 }
 header h1 {
-    margin: 0;
+    
     font-size: 3em;
 }
 header p {
@@ -62,7 +63,6 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
-    
 }
 nav li {
     margin-right: 30px;
@@ -73,7 +73,6 @@ nav a {
     color: #FFF;
     font-weight: bold;
     font-size: 16px;
-    
 }
 
 
@@ -82,31 +81,52 @@ nav a {
 .about-image {
     float: left;
     width: 100%;
+    ;
 }
 .profile-picture-container {
-    width: 200px; 
-    height: 200px; 
+    width: 165px; 
+    height: 165px; 
     border-radius: 50%; 
     overflow: hidden; 
     margin: auto;  
+    position: relative;
 }
 #profile-picture {
     width: 100%;
     height: 100%;
     object-fit: cover; 
 }
+#forhome {
+    margin: 10px 50px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    z-index: -1;
+}
+#forhome h2 {
+    color: #333;
+    font-size: 2.0em;
+}
+#forhome p {
+    line-height: 1.5;
+}
 
 
 
 /*section styles*/
 section {
-    margin: 50px 50px;
+    margin: 10px 50px;
     background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 30px;
 }
 section h2 {
     color: #333; 
-    
+    font-size: 2.0em;
 }
 section p {
     line-height: 1.5;   
@@ -172,7 +192,6 @@ project {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    
 }
 
 
@@ -231,14 +250,15 @@ button {
     
     
     
-     /* Adjust the all section layout for smaller screens */
-    section {
-        margin: 20px;
-        padding: 20px;
+    /* Forhome Image Styles */
+    section,
+    #forhome {
+        position: relative; /* Reset position for mobile view */
+        margin: 10px 0; /* Adjust margin for spacing */
     }
+    
+    
      
-    
-    
     /* Adjust the project layout for smaller screens */
     .project-info h3,
     .project-info p,
